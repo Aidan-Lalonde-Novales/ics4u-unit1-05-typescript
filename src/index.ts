@@ -16,7 +16,7 @@ const prompt = promptSync()
  * @param {number} height Height of the wood
  * @returns {number} length Length of the wood
  */
-function boardFoot (width: number, height: number): number {
+function boardFoot(width: number, height: number): number {
   const BOARD_FOOT = 144
   const length = BOARD_FOOT / (width * height)
   return length
